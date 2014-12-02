@@ -1,0 +1,215 @@
+.fontCambria{
+ font-style: cambria;
+}
+
+.registerArea{
+ width: 500px;
+ background: #36c5d8;
+ //box-shadow: 0px 0px 5px 1px gray inset;
+ margin-top: 0px;
+ border-radius: 5px;
+ margin-left: auto;
+ margin-right: auto;
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ font-family: cambria;
+}
+
+.registerAreaVendor{
+ width: 880px;
+ background: #36c5d8;
+ //box-shadow: 0px 0px 5px 1px gray inset;
+ margin-top: 0px;
+ border-radius: 5px;
+ margin-left: auto;
+ margin-right: auto;
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ font-family: cambria;
+}
+
+.customerLoginArea{
+ width: 350px;
+ background: #36c5d8;
+ border-radius: 5px;
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ font-family: cambria;
+ margin: 10px;
+ box-shadow: 0px 0px 10px 2px gray;
+}
+
+.mainLoginArea{
+ width: 100%;
+}
+
+.loginHead{
+ height: 30px;
+ text-align: center;
+ font-weight: bold;
+ font-size: 24px;
+ border-bottom: 1px solid white;
+ margin-left: 10px;
+ margin-right: 10px;
+ padding-top: 10px;
+ padding-bottom: 5px;
+ color: white;
+}
+
+.width100{
+ width: 100%;
+}
+
+.tableStyle{
+ width:100%;
+ margin-top: 5px;
+}
+
+.regText{
+ margin-left: 10px;
+ color: white;
+ font-size: 16px;
+}
+
+.inputEmail{
+ border: 0px;
+ box-shadow: 0px 0px 5px 1px gray inset;
+ height: 30px;
+ width: 95%;
+ margin-left: 10px;
+ font-size: 14px;
+ border-radius: 5px;
+ padding-left: 5px;
+ font-family: cambria;
+ outline: none;
+}
+
+.inputEmail:focus{
+ box-shadow: 0px 0px 5px 1px orange inset;
+}
+
+.inputPassword{
+ border: 0px;
+ box-shadow: 0px 0px 5px 1px gray inset;
+ height: 30px;
+ width: 95%;
+ margin-left: 10px;
+ font-size: 16px;
+ border-radius: 5px;
+ padding-left: 5px;
+ font-family: cambria;
+ outline: none;
+}
+
+.inputPassword:focus{
+ box-shadow: 0px 0px 5px 1px orange inset;
+}
+
+.mobileArea{
+ width: 50%;
+ background: white;
+ box-shadow: 0px 0px 5px 1px gray inset;
+ border-radius: 5px;
+ height: 30px;
+ margin-left: 10px;
+}
+
+.mobileArea:focus{
+ box-shadow: 0px 0px 5px 1px orange inset;
+}
+
+.mobileCode{
+ color: black;
+ //border-right: 1px solid gray;
+ font-size: 16px;
+}
+
+.mobileNo{
+ font-size: 16px;
+ font-family: cambria;
+ vertical-align: top;
+ outline: none;
+ border: 0px;
+ width: 160px;
+ //color: blue;//#36c5d8;
+}
+
+.buttonArea{
+ //border-top: 1px solid white;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-top: 5px;
+ margin-left: 10px;
+ font-family: cambria;
+}
+
+.buttonRegister{
+ background: url(../images/regButton.png);
+ background-repeat: no-repeat;
+ border-radius: 5px;
+ padding: 5px 15px 5px 15px;
+ width: 100px;
+ height: 31px;
+ outline: none;
+ font-family: cambria;
+ border: none;
+}
+
+.buttonReset{
+ background: #FFFFFF url(../images/regButton.png);
+ background-repeat: no-repeat;
+ border-radius: 5px;
+ padding: 5px 15px 5px 15px;
+ width: 100px;
+ height: 31px;
+ outline: none;
+ font-family: cambria;
+ border: none;
+}
+
+.errorMessages{
+ color: red;
+ display: none;
+ font-size: 16px;
+ margin-left: 0px;
+}
+
+.personalDetailsArea{
+ width: 1000px;
+ //height: 100px;
+ background: #36c5d8;
+ box-shadow: 0px 0px 5px 1px gray inset;
+ margin-top: -20px;
+ border-radius: 10px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.pDArea{
+ width: 500px;
+ //background: #36c5d8;
+ //box-shadow: 0px 0px 5px 1px gray inset;
+ margin-top: 0px;
+ border-radius: 5px;
+ //margin-left: auto;
+ //margin-right: auto;
+ font-family: cambria;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgb(220,220,220);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgb(220,220,220);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgb(220,220,220);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgb(220,220,220);
+}
+
