@@ -1,4 +1,4 @@
-/*developed by Jitendra chaudhary (jitendra291192@gmail.com) This project doesn't contain the sql file(I have lost that due to some unfortunate system crash).please make .sql file by reading the code*/
+/*developed by Jitendra chaudhary (jitendra291192@gmail.com) This project doesn't contain the sql file(I have lost that due to some unfortunate system crash).please make .sql file by reading the code...*/
 <?php
 if(isset($_SESSION['gs_userid']))
 {
